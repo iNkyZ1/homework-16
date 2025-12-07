@@ -11,7 +11,8 @@ import LoginPage from "./pages/LoginPage";
 import DashboardPage from "./pages/DashboardPage";
 import ProfilePage from "./pages/ProfilePage";
 import SettingsPage from "./pages/SettingsPage";
-import StatsPage, { statsLoader } from "./pages/StatsPage";
+import StatsPage from "./pages/StatsPage";
+import { statsLoader } from "./loaders/statsLoader";
 import NotFoundPage from "./pages/NotFoundPage";
 import ProtectedRoute from "./routes/ProtectedRoute";
 
