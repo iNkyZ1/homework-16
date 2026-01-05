@@ -13,7 +13,7 @@ import SettingsPage from "./pages/SettingsPage";
 import StatsPage from "./pages/StatsPage";
 import { statsLoader } from "./loaders/statsLoader";
 import NotFoundPage from "./pages/NotFoundPage";
-import ProtectedRoute from "./routes/ProtectedRoute";
+import ProtectedRoute from "./hoc/ProtectedRoute";
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
